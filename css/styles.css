@@ -1,0 +1,161 @@
+#title{
+    background-color: #ff4c68;
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif; */
+    color: #fff;
+    
+
+}
+h1 {
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-size: 3rem;
+}
+h2{
+    font-family: 'Ubuntu';
+     font-size: 2.5rem;
+    line-height:1.5;
+}
+.container-fluid{
+    padding: 3% 15% ;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.nav-item{
+        font-family: 'Montserrat';
+        font-size: 20px;
+    padding: 0 18px;
+}
+
+#navbarSupportedContent{
+    margin-left: 50%;
+}
+
+.download-button{
+    margin: 5% 5% 5% 5%;
+}
+
+.image{
+   
+    width: 25%;
+    transform: rotate(30deg);
+   
+    position: absolute;     
+}
+
+@media (max-width:992px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .image{
+        width: 60%;
+        position: static;
+        transform: rotate(0deg);
+
+    }
+    
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.text{
+    text-align: center;
+    padding: 4.5%;
+}
+
+
+
+
+
+.icon{
+color: #ff4c68;
+margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: aqua;
+}
+
+h3{
+    font-family: 'Ubuntu';
+}
+
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    
+    
+}
+.dog2{
+    width: 150px;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 3%;
+}
+
+.logo{
+    
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;}
+
+#pricing{
+    text-align: center;
+}
+
+
+.card{
+    margin: 5%;
+}
+
+.btn-lg{
+    padding: 2% 13% 2% 13%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 8% ;
+    text-align: center;
+
+}
+
+h3{
+    font-family: 'Montserrat';
+        line-height: 1.5;
+        font-size: 3rem;
+}
+
+.btn{
+    padding: 10px 20px;
+}
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    margin: 5% 0%;
+    color: lightslategray;
+}
+
